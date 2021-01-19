@@ -5,10 +5,18 @@ const Title = styled.h1`
   color: red;
   font-size: 25rem;
 `;
+
+const Section = styled.section`
+  padding: 2rem;
+  margin: 2rem;
+`;
+
 const App = () => {
   return (
     <div>
-      <Title>My Styled Title</Title>
+      <Section>
+        <Title>My Styled Title</Title>
+      </Section>
     </div>
   );
 };
